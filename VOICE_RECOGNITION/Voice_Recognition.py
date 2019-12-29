@@ -3,7 +3,7 @@ import speech_recognition as sr
 r=sr.Recognizer()
 
 with sr.Microphone() as source:
-    print('SPEAK ANYTHING :')
+    print('Say Something ! :')
     audio=r.listen(source)
 
     try:
